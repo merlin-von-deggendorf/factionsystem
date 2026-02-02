@@ -31,7 +31,7 @@ after(async () => {
   await closeManagementPool();
 });
 
-test('register, login, messages, polls', async () => {
+test('hello world test', async () => {
   const password = 'TestPassword123!';
   const users = [];
 
