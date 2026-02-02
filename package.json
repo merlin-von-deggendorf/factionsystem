@@ -1,0 +1,19 @@
+{
+  "name": "aidatabase",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "set DOTENV_CONFIG_PATH=.env&& node deploy.js",
+    "dump": "set DOTENV_CONFIG_PATH=.env&& node initialize.js",
+    "test": "set DOTENV_CONFIG_PATH=.env.test&& node --test"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "mariadb": "^3.4.5"
+  }
+}
